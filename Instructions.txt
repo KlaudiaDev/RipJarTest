@@ -1,0 +1,34 @@
+Requirements:
+
+Build the included responsive Figma layout using your favoured method.
+You may use any frontend libraries you prefer, for example Bootstrap & jQuery.
+
+Required Images and video are included in the ./img/ & ./video/ folder.
+
+The provided video should be placed as the background of the hero element as indicated in the Figma design.
+
+Images have been exported at 2x their layout size.
+
+An index.html template has been provided which includes external dependencies (contact-form.css and forms2.min.js) as well as starter markup for the bonus contact form modal task.
+
+
+All content is static aside from the latest news articles.
+Load the latest news articles on document ready from the Ripjar Wordpress site using the Wordpress REST API.
+
+Each article should contain the featured image, title and a "Read more: link to the article on ripjar.com as per the design.
+
+The ripjar.com REST API endpoint for posts is:
+https://ripjar.com/wp-json/wp/v2/posts/
+
+Pixel perfection is not expected, we are looking for a reasonable approximation of the rough design.
+
+You will have 4 hours to complete the assignment and you may consult any documentation you need.
+
+BONUS task:
+On click of "Request Demo" buttons, display a modal containing the provided Marketo contact form. The provided index.html contains an element `#modal` which contains the HTML and script necessary for the Marketo form to display.
+CSS for the embedded form has been provided, we do not any custom styling for the form elements.
+
+Test Submission:
+On completion of your build, please submit your code as a git repository to email address sebastiangcooper@gmail.com. You may use either bitbucket.org or github.com
+
+Please include a README.md containing instructions for the steps to follow to build and serve the page locally. We should be able to clone the repository and follow provided instruction and serve the page locally without issues. 
